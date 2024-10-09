@@ -13,6 +13,7 @@
 **回答：**
 是删除索引为`i`的元素，因为`i`是`int`类型的值，而`List`对象中的是装箱后的`integer`对象，所以`i`(int)不是`List`中的值
 
+**举例：**
 ``` java
 class Solution {
     public static void main(String[] args) {
